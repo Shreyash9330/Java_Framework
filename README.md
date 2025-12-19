@@ -1,59 +1,41 @@
-# Java_Framework 🚀
+# Java Framework Learning Repository 🚀
 
-This repository contains my complete learning journey of **Java Frameworks**.
-I am learning frameworks step by step to build strong backend development skills.
+This repository represents my structured learning journey of **Java Frameworks**.
+I am focusing on understanding frameworks from fundamentals to practical usage.
 
 Currently covered frameworks:
-- ✅ Hibernate (Completed)
-- 🔄 Spring Framework (In Progress)
+- ✅ Hibernate (ORM Framework)
+- 🔄 Spring Framework (Core)
 
-Each framework has its **own separate folder and README file** for clear understanding.
-
----
-
-## 📂 Frameworks Included
-
-### 1️⃣ Hibernate
-Hibernate is used for **database interaction using ORM**.
-It reduces JDBC code and makes database operations easier.
-
-📁 Folder: `Hibernate/`  
-📄 README: `Hibernate/README.md`
+Each framework is maintained in a **separate module with its own README**
+to keep learning clean, modular, and professional.
 
 ---
 
-### 2️⃣ Spring Framework
-Spring is used for **dependency management and application structure**.
-It provides loose coupling and easy configuration.
+## 📂 Repository Structure
 
-📁 Folder: `Spring/`  
-📄 README: `Spring/README.md`
+- `frameworks/hibernate` → Hibernate concepts & practice
+- `frameworks/spring` → Spring Core concepts & practice
+- `docs/` → Architecture notes & interview preparation
 
 ---
 
-## 🎯 Purpose of This Repository
-- Learn Java frameworks from basics to advanced
-- Understand internal flow and architecture
-- Practice interview-oriented concepts
+## 🎯 Learning Objectives
+- Understand ORM using Hibernate
+- Learn IOC & Dependency Injection using Spring
 - Build strong backend foundation
+- Prepare for Java interviews and real-world projects
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Technologies
 - Java
 - Hibernate
 - Spring Framework
 - MySQL
-- Maven / JARs
-- Eclipse IDE
 
 ---
 
 ## 👤 Author
 **Shreyash Patil Gawande**  
-Java & Frontend Developer  
-Learning Full Stack Java Development
-
----
-
-⭐ This repository is created for learning and practice purposes.
+Java Framework Learner | Aspiring Full Stack Developer
