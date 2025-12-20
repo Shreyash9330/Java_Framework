@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name ="mypack.Employee" table ="empinh">
+<id name ="empid">
+<generator class="increment"></generator>
+</id>
+<property name ="ename"></property>
+
+<union-subclass name ="mypack.Regular_Employee" table="regempinh">
+	<property name ="salary"></property>
+	<property name ="bonus"></property>
+</union-subclass>
+
+<union-subclass name ="mypack.Contract_Employee" table="conempinh">
+<property name="contract_duration" ></property>
+<property name="rate_per_hour" ></property>
+</union-subclass>
+
+</class>
+</hibernate-mapping>
