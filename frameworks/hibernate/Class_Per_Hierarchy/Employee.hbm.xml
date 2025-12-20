@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="mypack.Employee" table="empdata" discriminator-value="emp">
+    <id name="empid">
+        <generator class="increment"/>
+    </id>
+    <discriminator column="value" type="string"></discriminator>
+    <property name="ename"/>
+
+
+
+
+<subclass name="mypack.Regular_Employee" discriminator-value="regemp">
+<property name="salary"></property>
+<property name="bonus"></property>
+</subclass>
+
+<subclass name="mypack.Contract_Employee" discriminator-value="contemp">
+<property name="contract_duration"></property>
+<property name="rate_per_hour"></property>
+</subclass>
+ </class>
+</hibernate-mapping>
