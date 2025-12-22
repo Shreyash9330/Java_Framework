@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+<class name="mypack.Question" table="quis">
+<id name="qid">
+<generator class="increment"></generator>
+</id>
+
+<property name="qname"></property>
+<list name="answers" table="anskey">
+<key column="q_id"></key>
+<index column="type"></index>
+<element column="ans" type="string"></element>
+</list>
+</class>
+</hibernate-mapping>
