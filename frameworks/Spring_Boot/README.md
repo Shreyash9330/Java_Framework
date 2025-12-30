@@ -80,14 +80,14 @@ springboot-project/
 
 ---
 
-### ⚙ application.properties
+### ⚙ Application.properties
 
-server.port=8080
-spring.datasource.url=jdbc:mysql://localhost:3306/springbootdb
-spring.datasource.username=root
-spring.datasource.password=1234
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+server.port=8080<br>
+spring.datasource.url=jdbc:mysql://localhost:3306/springbootdb<br>
+spring.datasource.username=root<br>
+spring.datasource.password=1234<br>
+spring.jpa.hibernate.ddl-auto=update<br>
+spring.jpa.show-sql=true<br>
 
 ---
 
