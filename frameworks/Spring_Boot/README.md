@@ -130,4 +130,4 @@ and become a confident Java Full Stack Developer.
 
 ---
 
-**Author : Shreyash Patil Gawande**
+**Author : Shreyash  Gawande**
