@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://spring.io/images/spring-logo-2022-93b8cdd26b48d2bb7e5b5a8f7a1b4fae.svg" width="140">
+ <img src="./springboot-logo.png" width="140">
 </p>
 
 <h1 align="center">Spring Boot Playground 🌿</h1>
