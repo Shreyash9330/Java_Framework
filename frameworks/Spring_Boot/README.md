@@ -1,5 +1,5 @@
 <p align="center">
- <img src="./springboot-logo.png" width="140">
+<img src="./springboot-logo.png" width="140" style="background:#fff;border-radius:12px;padding:10px">
 </p>
 
 <h1 align="center">Spring Boot Playground 🌿</h1>
