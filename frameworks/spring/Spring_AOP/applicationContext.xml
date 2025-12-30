@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/aop 
+           http://www.springframework.org/schema/aop/spring-aop.xsd">
+           
+         <!-- Target Class -->  
+           
+           <bean id="testAop" class="mypack.TestAOP"></bean>
+           
+           <!--Before Advice -->
+           
+           <bean id="beforeAdvisor"    class="mypack.BeforeAdvisor"></bean>  
+           
+           <!-- Proxy Defination -->
+           
+             <bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+           			<property name="target" ref="testAop"></property>
+           			<property name="interceptorNames">
+           				<list>
+           					  <value>beforeAdvisor</value>
+           				</list>
+           			</property>
+           </bean>     
+           
+  </beans>
