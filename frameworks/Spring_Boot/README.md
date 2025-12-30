@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./springboot-logo.png" width="130">
+  <img src="./springboot-logo.png" width="140">
 </p>
 
 <h1 align="center">🌿 Spring Boot Playground</h1>
@@ -16,31 +16,31 @@
 
 ---
 
-### 🌈 About This Section
+### 🌈 About
 
-This folder contains my complete Spring Boot learning journey where I explore how modern Java backend
-applications are created using auto-configuration, layered architecture, REST APIs, JPA, validation,
-exception handling and command-line deployment.
+This folder represents my complete Spring Boot learning journey where I explore how modern Java backend
+applications are built using auto-configuration, layered architecture, REST APIs, JPA with Hibernate,
+validation, global exception handling and command-line deployment.
 
 ---
 
 ### ❓ Why Spring Boot?
 
-- no heavy xml, no boilerplate  
-- embedded tomcat – no server setup  
-- faster rest api development  
-- clean controller → service → repository structure  
-- perfect for microservices  
+- eliminates heavy XML configuration  
+- embedded tomcat – no external server setup  
+- faster REST API development  
+- clean controller → service → repository architecture  
+- perfect for microservice-based systems  
 
 ---
 
-### 🏗 Architecture Overview
+### 🏗 Architecture
 
 controller → handles requests  
 service → business logic  
 repository → database operations  
 model / dto → entities and data transfer  
-exception → custom errors  
+exception → custom error handling  
 SpringBootApplication.java → application entry point  
 
 ---
@@ -49,30 +49,33 @@ SpringBootApplication.java → application entry point
 
 1. run SpringBootApplication  
 2. spring scans all components  
-3. auto configures beans  
-4. starts embedded tomcat  
-5. maps all rest apis  
-6. handles browser / postman request  
+3. auto-configures required beans  
+4. starts embedded tomcat server  
+5. maps REST endpoints  
+6. handles browser or postman requests  
 
 ---
 
 ### 📂 Folder Structure
 
-
-
 springboot-project/
-└── src/main/java/com/shreyash/app/
-├── controller
-├── service
-├── repository
-├── model
-├── dto
-├── exception
-└── SpringBootApplication.java
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── shreyash/
+                    └── app/
+                        ├── controller
+                        ├── service
+                        ├── repository
+                        ├── model
+                        ├── dto
+                        ├── exception
+                        └── SpringBootApplication.java
 
 ---
 
-## ⚙ application.properties
+### ⚙ application.properties
 
 server.port=8080
 spring.datasource.url=jdbc:mysql://localhost:3306/springbootdb
@@ -83,7 +86,7 @@ spring.jpa.show-sql=true
 
 ---
 
-## 🔥 Common REST Annotations
+### 🔥 Common REST Annotations
 
 - `@RestController`
 - `@GetMapping`
@@ -95,30 +98,31 @@ spring.jpa.show-sql=true
 
 ---
 
-## 🛠 How to Run
+### 🛠 How to Run
 
-**Using IDE**
-
-Run → Spring Boot App
+**Using IDE**  
+Run → Spring Boot App  
 
 **Using Command Line**
 
+mvn spring-boot:run
+mvn clean install
+java -jar target/springboot-project.jar
 
 ---
 
-## 🧪 Testing
+### 🧪 Testing
 
 - `@SpringBootTest`
-- JUnit testing
+- JUnit
 
 ---
 
-## 🎯 Goal
+### 🎯 Goal
 
-To build real-world backend applications using Spring Boot
+To build real-world backend applications using Spring Boot  
 and become a confident Java Full Stack Developer.
 
 ---
 
 **Author : Shreyash Patil Gawande**
-
