@@ -1,57 +1,109 @@
-<p align="center">
-<img src="./springboot-logo.png" width="140" style="background:#fff;border-radius:12px;padding:10px">
-</p>
+# 🌱 Spring Boot Framework
 
-<h1 align="center">Spring Boot Playground 🌿</h1>
-<p align="center">my daily dose of java backend magic</p>
+Spring Boot is a framework built on top of the Spring Framework that helps developers create
+standalone, production-ready Java applications quickly with minimal configuration.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/java-17-orange">
-  <img src="https://img.shields.io/badge/springboot-3.x-brightgreen">
-  <img src="https://img.shields.io/badge/rest-api-yellow">
-  <img src="https://img.shields.io/badge/jpa-hibernate-blueviolet">
-  <img src="https://img.shields.io/badge/mysql-db-blue">
-  <img src="https://img.shields.io/badge/maven-build-blue">
-</p>
+Instead of writing complex Spring XML and configuration, Spring Boot provides auto-configuration
+and embedded servers.
 
-Welcome to my Spring Boot playground — a place where I experiment, break things, fix them again and finally build clean backend services using Java and Spring Boot. This repository grows every time I learn something new: auto-configuration, starters, layered architecture, dependency injection, REST APIs, database integration, validation, exception handling and real deployment.
+---
 
-I follow a clean structure while building projects:
+## ❓ Why Spring Boot?
 
-springboot-project/src/main/java/com/shreyash/app  
-controller → handles requests  
-service → business logic  
-repository → database operations  
-model & dto → entities and data transfer  
-exception → custom errors  
-SpringBootApplication.java → application entry point
+- Eliminates complex XML configuration  
+- Provides embedded Tomcat / Jetty  
+- Auto configuration of Spring components  
+- Faster application development  
+- Microservices ready  
+- Easy REST API development  
 
-The heart of the project lives inside application.properties:
+---
 
-server.port=8080  
-spring.datasource.url=jdbc:mysql://localhost:3306/springbootdb  
-spring.datasource.username=root  
-spring.datasource.password=1234  
-spring.jpa.hibernate.ddl-auto=update  
-spring.jpa.show-sql=true  
+## 🏗 Spring Boot Architecture
 
-Running the project is easy. Inside IDE just run as Spring Boot App.  
-From terminal:  
-mvn spring-boot:run  
-Build jar: mvn clean install  
-Run jar: java -jar target/springboot-project.jar  
+- Controller  
+- Service  
+- Repository  
+- Model / Entity  
+- DTO  
+- Configuration  
+- Exception Handling  
 
-APIs I practice daily:
+---
 
-GET /api/students → list of students  
-GET /api/students/{id} → single student  
-POST /api/students → add student  
-PUT /api/students/{id} → update student  
-DELETE /api/students/{id} → delete student  
+## 🔄 Spring Boot Execution Flow
 
-Along with CRUD, this repo also contains pagination & sorting, request validation using Bean Validation, centralized exception handling with ControllerAdvice, DTO mapping, logging using SLF4J, and profile based environment configuration.
+1. Run `SpringBootApplication.java`
+2. Spring Boot auto scans components
+3. Auto-configures beans
+4. Starts embedded Tomcat server
+5. Maps REST APIs
+6. Handles HTTP requests
+7. Returns response
 
-The goal of this repo is simple — become a solid Java Full Stack Developer by building real production-ready backend systems instead of just writing theory.
+---
 
-crafted with ☕ and patience by  
-Shreyash Patil Gawande — frontend dev learning the backend world from Amravati
+## 📂 Project Structure
+
+springboot-project/
+└── src/main/java/com/shreyash/app/
+├── controller
+├── service
+├── repository
+├── model
+├── dto
+├── exception
+└── SpringBootApplication.java
+
+---
+
+## ⚙ application.properties
+
+server.port=8080
+spring.datasource.url=jdbc:mysql://localhost:3306/springbootdb
+spring.datasource.username=root
+spring.datasource.password=1234
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+---
+
+## 🔥 Common REST Annotations
+
+- `@RestController`
+- `@GetMapping`
+- `@PostMapping`
+- `@PutMapping`
+- `@DeleteMapping`
+- `@RequestBody`
+- `@PathVariable`
+
+---
+
+## 🛠 How to Run
+
+**Using IDE**
+
+Run → Spring Boot App
+
+**Using Command Line**
+
+
+---
+
+## 🧪 Testing
+
+- `@SpringBootTest`
+- JUnit testing
+
+---
+
+## 🎯 Goal
+
+To build real-world backend applications using Spring Boot
+and become a confident Java Full Stack Developer.
+
+---
+
+**Author : Shreyash Patil Gawande**
+
