@@ -58,20 +58,25 @@ SpringBootApplication.java → application entry point
 
 ### 📂 Folder Structure
 
-springboot-project/<br>
-└── src/ <br>
-    └── main/<br>
-        └── java/<br>
-            └── com/<br>
-                └── shreyash/<br>
-                    └── app/<br>
-                        ├── controller<br>
-                        ├── service<br>
-                        ├── repository<br>
-                        ├── model<br>
-                        ├── dto<br>
-                        ├── exception<br>
-                        └── SpringBootApplication.java<br>
+```
+springboot-project/
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── shreyash/
+                    └── app/
+                        ├── controller/
+                        ├── service/
+                        ├── repository/
+                        ├── model/
+                        ├── dto/
+                        ├── exception/
+                        └── SpringBootApplication.java
+
+```
+
+
 
 ---
 
