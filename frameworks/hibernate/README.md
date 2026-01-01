@@ -63,3 +63,6 @@ Instead of writing JDBC code, developers work with Java objects.
 ✅ Completed  
 Hibernate fundamentals and mappings are practiced.
 
+---
+**Author : Shreyash Gawande**  
+Java & Developer
