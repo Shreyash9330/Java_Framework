@@ -76,8 +76,6 @@ springboot-project/
 
 ```
 
-
-
 ---
 
 ### ⚙ Application.properties
