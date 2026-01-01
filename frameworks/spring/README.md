@@ -1,54 +1,81 @@
-# Spring Framework 🌱
+# 🌱 Spring Framework
 
-Spring is a lightweight Java framework used to build
-**loosely coupled, maintainable, and scalable applications**.
+Spring is a lightweight Java framework used to build **loosely coupled, maintainable, and scalable applications**.  
+It manages object creation, dependency injection, bean lifecycle, and provides a powerful container for enterprise Java development.
 
-It manages object creation and dependency management.
+This folder represents my complete journey of learning **Spring Core Framework** including dependency injection,
+bean scopes, collections injection, inheritance, AOP, and JDBC template.
 
 ---
 
 ## ❓ Why Spring?
-- Loose coupling
-- Better code maintainability
-- Easy testing
-- Modular architecture
+
+- Eliminates tight coupling  
+- Improves code maintainability  
+- Simplifies testing using DI  
+- Supports modular & layered architecture  
+- Provides ready-made enterprise features  
 
 ---
 
-## 🧠 Core Concepts
+## 🧠 Core Concepts Learned
 
-### 🔹 Inversion of Control (IOC)
-Spring controls object creation instead of the programmer.
+### 🔹 Inversion of Control (IoC)
+Spring container controls object creation instead of the programmer.
 
 ### 🔹 Dependency Injection (DI)
-Dependencies are injected automatically rather than created manually.
+Dependencies are injected automatically instead of creating them manually.
+
+- Constructor Injection  
+- Setter Injection  
+- Collection Injection  
+- Map Injection  
 
 ---
 
 ## 🧱 Spring Containers
-- BeanFactory
-- ApplicationContext
+
+- **BeanFactory** – Basic container  
+- **ApplicationContext** – Advanced container with enterprise features  
 
 ---
 
 ## 🫘 Spring Beans
-- Bean definition
-- Setter Injection
-- Bean lifecycle
-- Bean scope
+
+- Bean Definition  
+- Bean Scope – Singleton, Prototype  
+- Bean Lifecycle  
+- Autowiring  
+
+---
+
+## 🏗 Modules Practiced in This Folder
+
+- Constructor Injection  
+- Setter Injection  
+- JDBC Template  
+- Spring AOP  
+- Spring Inheritance  
+- Collection Mapping  
 
 ---
 
 ## 🔁 Spring Execution Flow
-1. Create POJO class
-2. Configure beans (XML)
-3. Load Spring container
-4. Retrieve bean object
-5. Use business logic
+
+1. Create POJO class  
+2. Configure beans using XML  
+3. Load Spring container  
+4. Retrieve bean objects  
+5. Execute business logic  
 
 ---
 
 ## 📌 Learning Status
-🔄 In Progress  
-Currently learning Spring Core concepts.
 
+✅ **Spring Framework – Completed**  
+Now moving towards **Spring Boot & Full Stack Development**
+
+---
+
+**Author : Shreyash Patil Gawande**  
+Java & Spring Developer
