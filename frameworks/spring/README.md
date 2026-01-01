@@ -76,6 +76,5 @@ Dependencies are injected automatically instead of creating them manually.
 Now moving towards **Spring Boot & Full Stack Development**
 
 ---
-
-**Author : Shreyash Patil Gawande**  
+**Author : Shreyash Gawande**  
 Java & Spring Developer
